@@ -1,3 +1,7 @@
+"""
+python 变量定义及简单运算
+"""
+
 print("Hello World !")
 print("Hello Python")
 
