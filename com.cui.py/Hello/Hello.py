@@ -5,6 +5,10 @@ python 变量定义及简单运算
 print("Hello World !")
 print("Hello Python")
 
+# print 函数（默认情况下，print 输出内容后，会自动在末尾增加换行
+print("*", end="++++++")
+print("*") # 没有换行
+
 # 注释
 print("单行注释")
 """
