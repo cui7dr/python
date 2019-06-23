@@ -1,4 +1,4 @@
-def multiple_table():
+def Method01():
     # 打印九行 *
     row = 1
     while row <= 9:
