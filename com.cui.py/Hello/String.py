@@ -58,3 +58,18 @@ print(str1.find("aaa"))
 # 替换字符串（不会修改原有字符串内容，会返回一个新的字符串
 print(str1.replace("python", "world"))
 print(str1)
+
+# 字符串文本对齐
+poem = ["\t\n登鹳雀楼", "王之涣", "白日依山尽\t\n", "黄河入海流", "欲穷千里目", "更上一层楼"]
+for poem_str in poem:
+    # 先使用 strip() 去除字符串中的空白字符，再使用 center() 文本居中
+    print("|%s|" % poem_str.strip().center(10, " "))
+
+poem1 = "登鹳雀楼\t王之涣\t白日依山尽\t\n黄河入海流\t\t欲穷千里目\t\t\n更上一层楼"
+print(poem1)
+# 拆分字符串
+poem_list = poem1.split()
+print(poem_list)
+# 合并字符串
+result = " ".join(poem_list)
+print(result)
