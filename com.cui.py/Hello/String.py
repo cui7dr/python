@@ -46,3 +46,15 @@ print(textNum_str)
 print(textNum_str.isdecimal())
 print(textNum_str.isdigit())
 print(textNum_str.isnumeric())
+
+# 判断字符串是否以指定字符串开始
+print(str1.startswith("hello"))
+# 判断字符串是否以指定字符串结束
+print(str1.endswith("python"))
+# 查找指定字符串在字符串中位置
+print(str1.find("llo"))
+# 如果 find() 指定的字符串不存在，返回 -1 （index 会报错
+print(str1.find("aaa"))
+# 替换字符串（不会修改原有字符串内容，会返回一个新的字符串
+print(str1.replace("python", "world"))
+print(str1)
