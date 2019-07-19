@@ -4,6 +4,10 @@
 
 # 02 ---- 添加无限循环，由用户决定退出
 while True:
+
+    # 04 ---- 添加 TODO 注释
+    # TODO (张三) 显示功能菜单
+
     # 01 ---- start
     action_str = input("请输入你希望执行的操作：")
     print("你选择的操作是【%s】" % action_str)
